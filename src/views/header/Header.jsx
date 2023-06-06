@@ -10,8 +10,8 @@ const Header = () => {
             <Navbar />
 
             <div className='header-text'>
-                <p>Full Stack Developer</p>
-                <h1>Hi, I'm <span>AFSAL P U</span> <br /> From India</h1>
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>KEVIN ALBERT</span> <br /> From India</h1>
             </div>
         </div>  
     </div>
