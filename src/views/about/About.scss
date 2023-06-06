@@ -3,6 +3,8 @@
     color: #ababab;
     
     .container {
+        padding: 0 80px;
+
         .row {
             display: flex;
             justify-content: space-between;
@@ -42,6 +44,33 @@
 
                         &.active-link::after {
                             width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #about {
+        .container {
+            padding: 0 30px;
+
+            .row {
+                display: flex;
+                flex-direction: column;
+
+                .about-col-1 {
+                    flex-basis: 100%;
+                    margin-bottom: 30px;
+                }
+                .about-col-2 {
+                    flex-basis: 100%;
+
+                    .tab-titles {
+                        .tab-links {
+                            font-size: 14px;
                         }
                     }
                 }

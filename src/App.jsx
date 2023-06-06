@@ -1,7 +1,8 @@
-import About from "./pages/about/About"
-import Header from "./pages/header/Header"
-import Portfolio from "./pages/portfolio/Portfolio"
-import Services from "./pages/services/Services"
+import About from "./views/about/About"
+import Contact from "./views/contact/Contact"
+import Header from "./views/header/Header"
+import Portfolio from "./views/portfolio/Portfolio"
+import Services from "./views/services/Services"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Services />
       <Portfolio />
+      <Contact />
     </>
   )
 }
